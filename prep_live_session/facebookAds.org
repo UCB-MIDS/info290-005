@@ -1,5 +1,5 @@
 #+TITLE: Facebook In-Video Ads 
-#+AUTHOR: Alex, Micah and Dan
+#+AUTHOR: Alex
 #+DATE: \today
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS:
@@ -12,11 +12,23 @@
 #+OPTIONS: toc:nil
 
 * The Setup
-Suppose you've completed w241 & MIDS -- the sun shines brighter, the birds chirp louder, you sleep is more complete -- and you've landed a job on a great data science team at MySpace. Or, for the purposes of this example, Facebook. 
+Suppose you've completed Info 290 and MIMS -- the sun shines brighter,
+the birds chirp louder, you sleep is more complete -- and you've
+landed a job on a great data science team at MySpace. Or, for the
+purposes of this example, Facebook.
 
-The company, in pursuit of sales revenue, has determined that it would like to insert video advertisements /inside/ videos that are of a certain length. The idea here is that more even than advertisements that roll before a video begins to play, that an advertisement that rolls /inside/ the video will be very likely to be seen *and* viwed by the viewers. 
+The company, in pursuit of sales revenue, has determined that it would
+like to insert video advertisements /inside/ videos that are of a
+certain length. The idea here is that more even than advertisements
+that roll before a video begins to play, that an advertisement that
+rolls /inside/ the video will be very likely to be seen *and* viwed by
+the viewers.
 
-It is your teams job to produce the evaluation that will determine whether this new delivery system goes before the full userbase. The determination will be made in terms of changes in revenue with a one-year time horizon, so you need not worry about events or changes that might occur beyond that horizon. 
+It is your teams job to produce the evaluation that will determine
+whether this new delivery system goes before the full userbase. The
+determination will be made in terms of changes in revenue with a
+one-year time horizon, so you need not worry about events or changes
+that might occur beyond that horizon.
 
 * What you've got to report back 
 You've got three groups of people who will be *very* interested in the results of this experiment. 
@@ -30,39 +42,109 @@ You've got three groups of people who will be *very* interested in the results o
    death defying jump, and they'll stay; you put it anywhere in a Die
    Antwoord  video and 70% will thank you but leave the video and 30%
    will be so confused that they will not remember the ad.  
+   
+* First Week of Class: Design the Study 
+- With these stakeholders to satisfy, how would you design an
+  experiment to answer this causal question?
+- What, if any /observational/ data might you have laying around that
+  you could use as preliminary evidence for whether you think these
+  advertisemets will be positive or negative.
+  + 
+  + 
+  + 
+- How much are you willing to bet on the platform change causing
+  whatever pattern you see in the data? Or, said another way, are you
+  confident enough in this data that you would make the recommendation
+  based on what you've got laying around?
+  + 
+  + 
+  + 
+- What outcomes would you propose measuring?
+  + 
+  + 
+  + 
+- Are these outcomes the same, or different, depending on which
+  stakeholder you're reporting to? If they're different, then will you
+  be able to measuare all outcomes, for all stakeholders, or are you
+  going to have to prioritize one over the others? If so, which
+  stakeholder are you going to prioritize?
+  + 
+  + 
+  + 
+- Describe, in whatever language you can, how you would go about
+  building an experiment to test this outcome. What are you going to
+  do? For whom are you going to do it? When are you going to measure
+  the outcomes that you've proposed above?
+  + 
+  + 
+  + 
+  + 
+  + 
+- What could possibly go /wrong/ in this experiment...
+  + ...that would cause you to have to stop the experiment?
+    - 
+    - 
+  + ...what would cause you to estimate the /wrong/ answer in this
+    experiment?
+    - 
+    - 
+    
 
-* Design the study. 
-With these stakeholders to satisfy, how would you design an experiment to answer these causal questions? 
+* Last Week of Class: Design the study. 
+With these stakeholders to satisfy, how would you design an experiment
+to answer these causal questions?
 
-- What, if any /observational/ data might you have laying around that you could use as preliminary evidence for whether you think this might be net positive or negative? Are you confident enough in this data that you could make a recommendation based only on the existing data? Why or why not?
+- What, if any /observational/ data might you have laying around that
+  you could use as preliminary evidence for whether you think this
+  might be net positive or negative? Are you confident enough in this
+  data that you could make a recommendation based only on the existing
+  data? Why or why not?
   + 
   + 
   + 
-- What are the outcomes that you would propose measuring? Are the outcomes the same or different for the different stakeholders that you've got to report to. With these outcomes, what would be the pattern of data that would lead you to conclusively make a "go/no-go" statement about the new model?
+- What are the outcomes that you would propose measuring? Are the
+  outcomes the same or different for the different stakeholders that
+  you've got to report to. With these outcomes, what would be the
+  pattern of data that would lead you to conclusively make a
+  "go/no-go" statement about the new model?
   + 
   + 
   + 
-- Who are you going to compare to whom in this experiment? Be specific here -- are you going to design a between-subjects or within-subjects experiment, and why? What are the relative merits to these two sets?
+- Who are you going to compare to whom in this experiment? Be specific
+  here -- are you going to design a between-subjects or
+  within-subjects experiment, and why? What are the relative merits to
+  these two sets?
   + 
   + 
   + 
-- What principled way to reveal potential outcomes are you going to use? How, or what will your strategy be to determine whether this way of revealing potential outcomes was reliably implemented?
+- What principled way to reveal potential outcomes are you going to
+  use? How, or what will your strategy be to determine whether this
+  way of revealing potential outcomes was reliably implemented?
   + 
   + 
   + 
-- What are you going to do about people who leave the platform? Or use the platform less? Is this an outcome? Is this a form of attrition? Or what?
+- What are you going to do about people who leave the platform? Or use
+  the platform less? Is this an outcome? Is this a form of attrition?
+  Or what?
   + 
   + 
   + 
-- Your units are connected to one another -- or at least the platform was developed in a way that used to allow this. How does this change your randomization? Does it?
+- Your units are connected to one another -- or at least the platform
+  was developed in a way that used to allow this. How does this change
+  your randomization? Does it?
   + 
   + 
   + 
-- What does the design look like? Draw out the X's and O's. Where are the comparisons that are /strongly/ causal? Where are the comparisons that /might/ be causal? Where are the comparisons that are definitely /not/ causal?
+- What does the design look like? Draw out the X's and O's. Where are
+  the comparisons that are /strongly/ causal? Where are the
+  comparisons that /might/ be causal? Where are the comparisons that
+  are definitely /not/ causal?
   + 
   + 
   + 
-- Since you're not going to roll this out to everyone at once, from where are you going to take your 0.1% sample? The same areas? Different areas? Why?
+- Since you're not going to roll this out to everyone at once, from
+  where are you going to take your 0.1% sample? The same areas?
+  Different areas? Why?
   + 
   + 
   + 
