@@ -1,2 +1,8 @@
 .DS_Store
 .Rhistory
+*ipynb_checkpoints/
+
+# ingore latex files
+*.fdb_latexmk
+*.fls
+*.tex

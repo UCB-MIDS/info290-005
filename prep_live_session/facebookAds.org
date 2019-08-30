@@ -46,7 +46,7 @@ You've got three groups of people who will be *very* interested in the results o
    data science is identifying at what point in a video an
    advertisement can be insert. Put it in mid sentence and people are
    confused. But, if you put it in just before the person starts their
-   death defying jump, they'll stay. 
+   death defying jump, they'll stay.
    
 * First Week of Class: Design the Study 
 - With these stakeholders to satisfy, how would you design an
