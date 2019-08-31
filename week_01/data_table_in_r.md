@@ -1,2 +1,2 @@
 # Do a Longer Hike! 
-Head [here](http://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/UCB-MIDS/w241&branch=master&urlpath=rstudio) and navigate to `week_01>data_table_in_r.Rmd` to work on an exercize.
+For Info290-005 there is nothing to cover here. However, if you're unfamiliar with `pandas` you might consider leafing through [Python for Data Analysis](https://proquest.safaribooksonline.com/9781491957653). This link takes you to the University Online Version of the book. If you're on campus, you should have access to it; if you're off campus, and you connect through the Library VPN, you should have access to it. 
