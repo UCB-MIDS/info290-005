@@ -1,5 +1,3 @@
-
-
 # Overview 
 This is the directory for assignments. All the assignments _should_
 have the data that is necessary to complete the assignment included in
@@ -11,7 +9,6 @@ This also means that when you submit your problem set, I should be
 able to download it and execute without any problems.
 
 # Problem Sets 
-
 
 - [Problem Set 1](https://github.prod.oc.2u.com/UCB-MIDS/info290-ps1-fall2019)
 - [Problem Set 2](https://github.prod.oc.2u.com/UCB-MIDS/info290-ps2-fall2019)
